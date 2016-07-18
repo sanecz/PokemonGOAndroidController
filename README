@@ -1,0 +1,13 @@
+Requires enabling mock location and Mock Mock Location from the Xposed framework to hide it to other apps.
+
+
+How to use it:
+
+- Set location (default 0.0 0.0)
+
+- Start server
+
+
+Curl on http://yourip:8080/lat_lon to move your GPS to this location. It's slow but you can modify it in the FakeGPS.py
+
+I use it with a modified version of https://github.com/AHAAAAAAA/PokemonGo-Map
